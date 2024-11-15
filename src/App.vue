@@ -46,7 +46,7 @@ const handleSubmit = async () => {
   error.value = ''
 
   try {
-    const response = await axios.post('https://d599-85-48-188-178.ngrok-free.app/api/register', {  // Reemplaza la URL local por la de ngrok
+    const response = await axios.post('https://78a0-147-229-117-40.ngrok-free.app/api/register', {  // Reemplaza la URL local por la de ngrok
       name: name.value,
       email: email.value
     }, {
